@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 350px;
+}
+
+button {
+    background-color: #c51111;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.mario {
+    height: 500px;
+}
+
+#lado-esquerdo {
+    width: 40%;
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-prin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -2;
+}
+
+video {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.maskvd {
+    background: linear-gradient(
+  109deg, 
+  rgba(58, 37, 65, 0.85) 15%, 
+  rgba(10, 12, 16, 0.40) 50%, 
+  rgba(58, 37, 65, 0.85) 85%
+);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+}
+
+.testo {
+    color: white;
+    font-size: 20px;
+    font-family: "Mukta", sans-serif;
+}
+
+.cabeca img {
+    width: 70px;
+}
+
+.cabeca a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.cabeca a:hover {
+    color: #c51111;
+    transition: 0.5s ease-in-out;
+}
+
+.contato {
+    position: fixed;
+    bottom: 0;
+    margin: 15px;
+    right: 0;
+}
+
+.linkcontato img {
+    width: 60px;
+    cursor: pointer;
+}
+
+form {
+    background-color: white;
+
+    position: fixed;
+    top: 40%;
+    left: -340px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    border-radius: 4px;
+    gap: 20px;
+    width: 350px;
+    z-index: 1;
+    transition: 0.5s left ease-in-out;
+}
+
+form input {
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline-color: #18d80f;
+}
+
+form textarea {
+    height: 100px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline-color: #18d80f;
+}
+
+.maskform {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    visibility: hidden;
+    transition: 0.5s visibility ease-in-out;
+}
+.sem-riscos{
+  text-decoration: none;
+}
